@@ -1,0 +1,21 @@
+{
+    "name": "college/yii2-mytest",
+    "description": "Расширение для Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","test"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Сергей",
+            "email": "serswii@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "college\\mytest\\": ""
+        }
+    }
+}
