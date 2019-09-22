@@ -7,15 +7,22 @@
     "authors": [
         {
             "name": "Сергей",
-            "email": "serswii@yandex.ru"
+            "email": "serswii@yandex.ru",
+            "homepage": "https://github.com/Serswii/Yii2-college-",
+            "role": "Developer"
         }
     ],
+ 
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
+    "extra": {
+        "bootstrap": "college\\mytest\\Bootstrap"
+    },
     "autoload": {
         "psr-4": {
-            "college\\mytest\\": ""
+            "college\\mytest\\": "src"
         }
     }
 }
